@@ -434,6 +434,7 @@ body  {
 		color: #878f8f !important;
 	}
 	
+    /* bold username font */
 	.pagetop > a[href^="user?"] {
 		color: #f0ffff !important;
 	}
@@ -627,6 +628,10 @@ body  {
     /* "reply" text under the comment */
     a[href^="reply"]:link {
     color: #ccc !important;
+    }
+    /* "reply" text under the comment */
+    a[href^="user"]:link {
+    font-weight: bold !important;
     }
 
 

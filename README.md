@@ -1,10 +1,10 @@
-# Hacker News - Bluish Gray (2018)
+# Hacker News - Bluish Gray (2019)
 
 Bluish Gray Theme for Hacker News.
 
 Also applies to DataTau.
 
-This style is available to use [from Userstyles](https://userstyles.org/styles/157400/hacker-news-bluish-gray-2018) webpage.
+This style is available to use [from Userstyles](https://userstyles.org/styles/157400/hacker-news-bluish-gray-2019) webpage.
 
 ## Preview
 ![](./images/main_view.png)

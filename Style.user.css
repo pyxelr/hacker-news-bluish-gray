@@ -1,3 +1,13 @@
+/* ==UserStyle==
+@name           Hacker News - Bluish Gray
+@namespace      pyxelr
+@version        1.1.2
+@homepageURL https://github.com/pyxelr/Hacker_News_-_Bluish_Gray
+@updateURL   https://github.com/pyxelr/Hacker_News_-_Bluish_Gray/blob/master/Style.user.css
+@license     MIT
+@author         pyxelr
+==/UserStyle== */
+
 @-moz-document domain("news.ycombinator.com"), domain("hn.algolia.com") {
 /* Hacker News - Bluish Gray (2019)
     v1.1.1 (2019-11-08)

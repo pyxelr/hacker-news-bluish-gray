@@ -2,8 +2,6 @@
 
 Bluish Gray Theme for Hacker News.
 
-Also applies to DataTau.
-
 ## Preview
 ![](./images/main_view.png)
 

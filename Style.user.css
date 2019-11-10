@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name           Hacker News - Bluish Gray
 @namespace      pyxelr
-@version        1.1.2
+@version        1.2.1
 @homepageURL https://github.com/pyxelr/Hacker_News_-_Bluish_Gray
 @updateURL   https://github.com/pyxelr/Hacker_News_-_Bluish_Gray/blob/master/Style.user.css
 @license     MIT
 @author         pyxelr
 ==/UserStyle== */
 
-@-moz-document domain("news.ycombinator.com"), domain("hn.algolia.com") {
+@-moz-document domain("news.ycombinator.com") {
 body  {
 		background: #2b3033 !important;
 		color: #f0ffff !important;
@@ -311,7 +311,95 @@ body  {
     	color: #ccc !important;
 	}
 
-
+    
+	/* ==== SEARCH BOX, COMMENT BOX, DROP-DOWN MENU ==== */
+    /* Dropdown */
+    .Dropdown_label
+    {
+        color:#c2c2c2;
+    }
+    .Dropdown_list li button {
+    color: #f3f3f3;
+    background-color: #45515b;
+    }
+    
+    /* Story */
+    .Story_title a 
+    {
+    color: #F0FFFF;
+    }
+    .Story_title .Story_link 
+    {
+    color: #6d7474;
+    font-size: 11px;
+    word-break: break-all;
+    }
+    .Story_comment
+    {
+    color: #ababab;
+    }
+    
+    /* Search */
+    body > center > table, input, textarea, select 
+    {
+    	background-color: #222 !important;
+	}
+    .SearchResults_container
+    {
+    	background-color: #222 !important;
+	}
+    .SearchFilters.container
+    {
+    	background-color: #45515b !important;
+	}
+    .SearchFilters {
+    color: #f3f3f3;
+    }
+    .SearchHeader .PoweredBy
+    {
+        color:#a0a0a0;
+    }
+    .SearchResults
+    {
+        background:#222;
+        box-shadow:  0px 0px 30px 3px rgba(0, 0, 0, 0.2) !important;
+		border-left: 1px solid #000 !important;
+		border-right: 1px solid #000 !important;
+    }
+    /* Settings view */
+    .Settings
+    {
+        background-color:#222;
+    }
+    .Settings h2
+    {
+        color:#bcbcbc;
+    }
+    .Settings label 
+    {
+        color:#a0a0a0;
+    }
+    
+    /* Other */
+    .Pagination
+    {
+        background-color:#45515b;
+    }
+    .Footer_list a 
+    {
+    color: #a0a0a0;
+    }
+    
+	/* darker border around search box, comment box and drop-down menu*/
+		input, textarea, select {
+   		border: 1px solid #828282 !important;
+	}
+	/* bright input text in search box, comment box and drop-down menu */
+		td.title a:link, span.comment font, span.comment font a:link, u a:link, span.yclinks a:link, body:not([id]),
+		td:nth-child(2):not(.subtext) > a:link, input, textarea, select, p > a, a > u, .c00, .c00 a:link,
+		a[href="http://www.ycombinator.com/apply/"] {
+      	color: #ccc !important;
+	}
 
 
 	/* ==== OTHER ==== */
@@ -372,21 +460,11 @@ body  {
 	}
 }
 
-@-moz-document url-prefix("http://www.datatau.com/") {
+@-moz-document domain("datatau.net") {
 body  {
 		background: #2b3033 !important;
 		color: #f0ffff !important;
 		font-family: "Open Sans", "Bitstream Vera Sans", Verdana, Geneva, sans-serif !important;
-	}
-
-	a:link    { color:#b1bcbc !important; }
-	a:visited { color:#889191 !important; }
-
-	body > center > table[width="85%"] {
-		background: #212121 !important;
-		box-shadow:  0px 0px 30px 3px rgba(0, 0, 0, 0.2) !important;
-		border-left: 1px solid #000 !important;
-		border-right: 1px solid #000 !important;
 	}
 
 
@@ -612,32 +690,8 @@ body  {
 	/* 		line-height: 1.33 !important; */
 	}
 
-	/* ==== SEARCH BOX, COMMENT BOX, DROP-DOWN MENU ==== */
 
-	/* background color of search box, comment box and drop-down menu */
-	body > center > table, input, textarea, select {
-    	background-color: #222 !important;
-	}
-	/* darker border around search box, comment box and drop-down menu */
-		input, textarea, select {
-   		border: 1px solid #828282 !important;
-	}
-	/* bright input text in search box, comment box and drop-down menu */
-		td.title a:link, span.comment font, span.comment font a:link, u a:link, span.yclinks a:link, body:not([id]),
-		td:nth-child(2):not(.subtext) > a:link, input, textarea, select, p > a, a > u, .c00, .c00 a:link,
-		a[href="http://www.ycombinator.com/apply/"] {
-      	color: #ccc !important;
-	}
-    /* "reply" text under the comment */
-    a[href^="reply"]:link {
-    color: #ccc !important;
-    }
-    /* "reply" text under the comment */
-    a[href^="user"]:link {
-    font-weight: bold !important;
-    }
-
-
+    
 
 	/* ==== FOOTER ==== */
 

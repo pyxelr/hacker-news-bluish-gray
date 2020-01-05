@@ -1,6 +1,6 @@
-# Hacker News - Bluish Gray (2019)
+# Hacker News - Bluish Gray
 
-Bluish Gray Theme for Hacker News.
+Bluish Gray Theme for [Hacker News](https://news.ycombinator.com/).
 
 ## Preview
 ![](./images/main_view.png)

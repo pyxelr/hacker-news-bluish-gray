@@ -3,9 +3,11 @@
 Bluish Gray Theme for [Hacker News](https://news.ycombinator.com/).
 
 ## Preview
-![](./images/main_view.png)
+<br />
+<p align="center">
+  <img src="/images/main_view.png" alt="Main View">
 
-## Installing
+## Installation
 
 * If you're using a browser extension:
   * Stylus - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) and [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/). <br>
